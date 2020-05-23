@@ -12,8 +12,7 @@ votes <- c(
 )
 data <- data.frame(
   theme = names(votes),
-  votes = unname(votes),
-  img = paste0(names(votes), ".png")
+  votes = unname(votes)
 )
 
 img_fun <- function(x) {
